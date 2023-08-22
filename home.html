@@ -40,6 +40,13 @@
         font-size: 24px;
         margin: 0 5px;
     }
+
+.forms{
+    margin: 10px 5px 5px 10px ;
+    background-color: aquamarine;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+}
     </style>
 </head>
 <body>
@@ -196,7 +203,60 @@
         </div>
         <p style="margin-right:auto;"><a href="https://www.forbesindia.com/archive/" >more>></a></p>
     </div>
-    
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Chandrayaan-3 'on schedule', snaps new Moon images from altitude of about 70 km
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"> The Chandrayaan-3 mission is on schedule to attempt a soft landing on the Moon on Wednesday, August 23, the Indian Space Research Organisation (Isro) said.
+
+                The space agency said all systems are undergoing regular checks and smooth sailing is continuing.<code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Chandrayaan-3 landing will be postponed to August 27 if…: Top Isro scientist
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">.Space Applications Centre-Isro, Ahmedabad Director has expressed the possibility of pushing the appropriate date to land Chandrayaan-3 on the Moon.</div>
+          </div>
+        </div>
+        
+      </div>
+
+      <form class="forms">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Enter the email.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Toggle bottom offcanvas</button>
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" style="margin: 5px 10px 5px 10px;"></button>
+  </div>
+  <div class="offcanvas-body small">
+    ...
+  </div>
 </div>
 <div class="footer">
   <div class="container">
